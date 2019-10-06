@@ -16,12 +16,7 @@
 	},
 	"AutoloadClasses": {
 		"Katsa\\Hooks":
-			"includes/Hooks.php",
-		"Katsa\\LuaLibDoppelganger":
-			"includes/LuaLibrary/LuaLibDoppelganger.php"
-	},
-	"config_prefix": "wgDoppelganger",
-	"config": {
+			"includes/Hooks.php"
 	},
 	"callback": "Katsa\\Hooks::onExtensionSetup",
 	"Hooks": {
