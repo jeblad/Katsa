@@ -1,0 +1,3 @@
+The following line should give an error message reading “Lua error in Module:Test at line 22: Confess called: confess confess confess.” The line number can change somewhat.
+
+{{#invoke:Test|confess}}
