@@ -75,7 +75,7 @@
 {{#invoke:Test|carp}}
 </pre>
 
-<p>This is </p>
+<p>This is the lowest level reporting, it gives only a one-liner, and only in the console.</p>
 
 <h3>Cluck</h3>
 
@@ -86,6 +86,8 @@
 {{#invoke:Test|cluck}}
 </pre>
 
+<p>This is the next level, and it gives an additional stack trace. Still, it is only reporting in the console.</p>
+
 <h3>Croak</h3>
 
 <p>The following line should give an error message reading “Lua error: Croak called: croak croak croak.”</p>
@@ -94,6 +96,8 @@
 <pre>
 {{#invoke:Test|croak}}
 </pre>
+
+<p>This is a critical level and moves the reporting from the console and into the output page. Again it is only a one-liner, but in bright red color. Usually this should only be used for critical actions that can't be fulfilled without user interactions.</p>
 
 <h3>Confess</h3>
 
@@ -104,6 +108,7 @@
 {{#invoke:Test|confess}}
 </pre>
 
+<p>This is also a critical level and produces an error message in bright red color. It gives a stack trace, and should only be used for critical actions that can't be fulfilled without user interactions.</p>
 
 
 </div> <!-- id="content" -->
