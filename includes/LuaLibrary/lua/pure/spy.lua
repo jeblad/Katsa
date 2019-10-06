@@ -147,7 +147,7 @@ end
 -- @treturn self
 function spy.newCarp( ... )
 	local obj = makeSpy( ... )
-	obj:log( mw.message.new( 'doppelganger-carp-final' ):plain(), 0 )
+	obj:log( mw.message.new( 'katsa-carp-final' ):plain(), 0 )
 	return obj
 end
 
@@ -158,7 +158,7 @@ end
 -- @treturn self
 function spy.newCluck( ... )
 	local obj = makeSpy( ... )
-	obj:log( mw.message.new( 'doppelganger-cluck-final' ):plain(), 4 )
+	obj:log( mw.message.new( 'katsa-cluck-final' ):plain(), 4 )
 	return obj
 end
 
@@ -171,7 +171,7 @@ end
 -- @treturn self
 function spy.newCroak( ... )
 	local obj = makeSpy( ... )
-	obj:raise( mw.message.new( 'doppelganger-croak-final' ):plain(), 0 )
+	obj:raise( mw.message.new( 'katsa-croak-final' ):plain(), 0 )
 	return obj
 end
 
@@ -184,7 +184,7 @@ end
 -- @treturn self
 function spy.newConfess( ... )
 	local obj = makeSpy( ... )
-	obj:raise( mw.message.new( 'doppelganger-confess-final' ):plain(), 4 )
+	obj:raise( mw.message.new( 'katsa-confess-final' ):plain(), 4 )
 	return obj
 end
 
