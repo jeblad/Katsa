@@ -31,8 +31,8 @@
 
 <h2>Examples</h2>
 <ul class="nowrap">
-  <li><a href="../examples/croak.lua.html">croak.lua</a></li>
-  <li><strong>module-test.lua</strong></li>
+  <li><strong>croak.lua</strong></li>
+  <li><a href="../examples/module-test.lua.html">module-test.lua</a></li>
 </ul>
 <h2>Modules</h2>
 <ul class="nowrap">
@@ -48,33 +48,11 @@
 
 <div id="content">
 
-    <h2>module-test.lua</h2>
+    <h2>croak.lua</h2>
 <pre>
-<span class="keyword">local</span> spy = <span class="global">require</span> <span class="string">'spy'</span>
-<span class="keyword">local</span> carp = spy.newCarp()
-<span class="keyword">local</span> cluck = spy.newCluck()
-<span class="keyword">local</span> croak = spy.newCroak()
-<span class="keyword">local</span> confess = spy.newConfess()
+The following line should give an <span class="global">error</span> message reading “Lua <span class="global">error</span>: Croak called: croak croak croak.”
 
-<span class="keyword">local</span> h = {}
-
-<span class="keyword">function</span> h.carp()
-	carp <span class="string">'carp carp carp'</span>
-<span class="keyword">end</span>
-
-<span class="keyword">function</span> h.cluck()
-	cluck <span class="string">'cluck cluck cluck'</span>
-<span class="keyword">end</span>
-
-<span class="keyword">function</span> h.croak()
-	croak <span class="string">'croak croak croak'</span>
-<span class="keyword">end</span>
-
-<span class="keyword">function</span> h.confess()
-	confess <span class="string">"confess confess confess"</span>
-<span class="keyword">end</span>
-
-<span class="keyword">return</span> h</pre>
+{{#invoke:Test|croak}}</pre>
 
 
 </div> <!-- id="content" -->
