@@ -9,7 +9,7 @@ This [extension for Mediawiki](https://www.mediawiki.org/wiki/Extension:Katsa) a
 
 Katsa depends on modules from the Scribunto extension.
 
-1. Download from [Github](https://github.com/jeblad/Katsa) ([zip](https://github.com/jeblad/Katsa/archive/master.zip)) and place the file(s) in a directory called Doppelganger in your extensions/ folder.
+1. Download from [Github](https://github.com/jeblad/Katsa) ([zip](https://github.com/jeblad/Katsa/archive/master.zip)) and place the file(s) in a directory called Katsa in your extensions/ folder.
 2. Add the following code at the bottom of your LocalSettings.php:
 
 	```lua
@@ -29,10 +29,10 @@ Katsa uses [Mediawiki-Vagrant](https://www.mediawiki.org/wiki/MediaWiki-Vagrant)
 	git clone --recursive https://gerrit.wikimedia.org/r/mediawiki/vagrant .
 	```
 
-3. Add the role unless [#???](https://gerrit.wikimedia.org/r/#/c/mediawiki/vagrant/+/539690/) has been merged. (You need [git-review](https://www.mediawiki.org/wiki/Gerrit/git-review) to do this.)
+3. Add the role unless [#541075](https://gerrit.wikimedia.org/r/#/c/mediawiki/vagrant/+/541075/) has been merged. (You need [git-review](https://www.mediawiki.org/wiki/Gerrit/git-review) to do this.)
 
 	```bash
-	git review -d ???
+	git review -d 541075
 	```
 
 4. Run setup.
