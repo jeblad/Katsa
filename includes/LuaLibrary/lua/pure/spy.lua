@@ -54,7 +54,7 @@ local function makeSpy( ... )
 	--- Evaluate graph.
 	-- @function spy:eval
 	-- @tparam nil|string text to be reported on evaluation of the compute grap
-	-- @treturn self
+	-- @treturn nil|string zero or more strings
 	function obj:eval( text )
 		checkSelf( self, 'eval' )
 		checkType( 'spy:eval', 1, text, 'string', true )
@@ -62,7 +62,7 @@ local function makeSpy( ... )
 		for _,v in ipairs( _callbacks ) do
 			v( t, unpack( _data ) )
 		end
-		return self
+		return unpack( t )
 	end
 
 	--- Add a callback.
@@ -93,15 +93,16 @@ local function makeSpy( ... )
 		checkSelf( self, 'log' )
 		checkType( 'spy:log', 1, text, 'string', true )
 		checkType( 'spy:log', 2, level, 'number', true )
+		level = level or 4
 		local f = function( t )
 			local tmp = { text }
 			for _,v in ipairs( t ) do
 				table.insert( tmp, v )
 			end
-			if (level or 4) == 0 then
+			if level == 0 then
 				mw.log( table.concat( tmp, ': ' ) )
 			else
-				mw.log( debug.traceback( table.concat( tmp, ': ' ), level or 4 ) )
+				mw.log( debug.traceback( table.concat( tmp, ': ' ), level ) )
 			end
 		end
 		table.insert( _callbacks, f )
@@ -118,12 +119,13 @@ local function makeSpy( ... )
 		checkSelf( self, 'raise' )
 		checkType( 'spy:raise', 1, text, 'string', true )
 		checkType( 'spy:raise', 2, level, 'number', true )
+		level = level or 4
 		local f = function( t )
 			local tmp = { text }
 			for _,v in ipairs( t ) do
 				table.insert( tmp, v )
 			end
-			error( table.concat( tmp, ': ' ), level or 4 )
+			error( table.concat( tmp, ': ' ), level )
 		end
 		table.insert( _callbacks, f )
 		return self
