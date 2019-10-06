@@ -1,3 +1,0 @@
-The following line should not give a visible output, it only gives output in the console.
-
-{{#invoke:Test|carp}}
