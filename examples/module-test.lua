@@ -1,3 +1,6 @@
+--- This is an example
+-- @module Test
+
 local spy = require 'spy'
 local carp = spy.newCarp()
 local cluck = spy.newCluck()
