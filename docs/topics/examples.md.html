@@ -45,7 +45,6 @@
 </ul>
 <h2>Examples</h2>
 <ul class="nowrap">
-  <li><a href="../examples/croak.lua.html">croak.lua</a></li>
   <li><a href="../examples/module-test.lua.html">module-test.lua</a></li>
 </ul>
 
@@ -72,7 +71,6 @@
 {{#invoke:Test|carp}}
 </pre>
 
-
 <h3>cluck</h3>
 
 <p>The following line should not give a visible output, it only gives output in the console.</p>
@@ -83,6 +81,13 @@
 </pre>
 
 <h3>croak</h3>
+
+<p>The following line should give an error message reading “Lua error: Croak called: croak croak croak.”</p>
+
+
+<pre>
+{{#invoke:Test|croak}}
+</pre>
 
 <h3>Confess</h3>
 
