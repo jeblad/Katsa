@@ -35,7 +35,7 @@
 
 <h2>Topics</h2>
 <ul class="">
-  <li><strong>Examples</strong></li>
+  <li><strong>Introduction</strong></li>
   <li><a href="../topics/vagrant.md.html">Vagrant</a></li>
   <li><a href="../topics/vscode.md.html">VScode</a></li>
 </ul>
@@ -53,14 +53,18 @@
 <div id="content">
 
 
-<h1>Examples</h1>
+<h1>Introduction</h1>
+
+<p>Spies in the Katsa extension is modeled as four distinct calls that can be organized along two different dimensions. They are either doing logging or error reporting, and they are either just giving a notification or a stack trace. It is easy to extend the default behavior through use of callbacks, thus keeping the expected behavior. One typical use is to extend the granularity past the just info logging and error reporting.</p>
+
+<p>The name “<a href="https://en.wikipedia.org/wiki/Katsa">katsa</a>” is a field intelligence officer in Mossad, the national intelligence agency of Israel. A katsa collects information and runs agents – spies – like this extension. This extension has software spies that track code execution.</p>
+
+<p><a name="Examples"></a></p>
+<h2>Examples</h2>
 
 <p>A core example of a module can be found at <a href="../examples/test.lua.html">Module:Test</a>. This example registers four spies, one for each of <code>carp()</code>, <code>cluck()</code>, <code>croak()</code>, and <code>confess()</code>.</p>
 
 <p>When called they give a resulting output as described by the following. The previous example module and the following wikipages can be loaded by calling <code>composer import</code> in the Katsa extension directory.</p>
-
-<p><a name="Examples"></a></p>
-<h2>Examples</h2>
 
 <h3>Carp</h3>
 
