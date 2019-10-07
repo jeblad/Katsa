@@ -10,7 +10,7 @@ If you need a glossary, a lot of the terms are technical jargon, one is defined 
 
 ## Templates
 
-There should be a template `katsa-gloss` reading (with additional markup)
+There should be a template [`katsa-gloss`](https://translatewiki.net/wiki/Template:Katsa-gloss) reading (with additional markup)
 
     Please check out the
     [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Katsa/Glossary glossary]
