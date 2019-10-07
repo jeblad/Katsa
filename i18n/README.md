@@ -12,6 +12,6 @@ If you need a glossary, a lot of the terms are technical jargon, one is defined 
 
 There should be a template `katsa-gloss` reading (with additional markup)
 
-> Please check out the
-> [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Katsa/Glossary glossary]
-> and try to be consistent.
+    Please check out the
+    [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Katsa/Glossary glossary]
+    and try to be consistent.
