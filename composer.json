@@ -55,7 +55,13 @@
 			"find modules/images -type d -path minified -prune -o -type d -execdir svgo --pretty --indent=2 -i . -o ./minified \\;"
 		],
 		"unit": [
-			"php ../../tests/phpunit/phpunit.php --wiki wiki --group Katsa"
+			"php ../../tests/phpunit/phpunit.php --wiki wiki --exclude-group LuaStandalone,Broken,Destructive,Database,Stub --group Katsa"
+		],
+		"unit-both": [
+			"php ../../tests/phpunit/phpunit.php --wiki wiki --exclude-group Broken,Destructive,Database,Stub --group Katsa"
+		],
+		"unit-lua": [
+			"php ../../tests/phpunit/phpunit.php --wiki wiki --exclude-group Broken,Destructive,Database,Stub --group Lua"
 		],
 		"codesize": [
 			"phpmd ./includes/ text codesize",
