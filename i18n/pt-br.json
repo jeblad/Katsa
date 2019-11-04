@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira"
+		]
+	},
+	"katsa-desc": "Fornece espiões para uso em módulos Lua",
+	"katsa-confess-final": "Confesse chamado"
+}
