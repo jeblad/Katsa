@@ -1,4 +1,4 @@
---- This is an example
+--- This is a minimal example.
 -- @module Test
 
 local spy = require 'spy'
