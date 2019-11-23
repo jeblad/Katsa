@@ -10,19 +10,19 @@ local confess = spy.newConfess()
 local h = {}
 
 function h.carp()
-	carp 'carp carp carp'
+	carp 'this is "carp"'
 end
 
 function h.cluck()
-	cluck 'cluck cluck cluck'
+	cluck 'this is "cluck"'
 end
 
 function h.croak()
-	croak 'croak croak croak'
+	croak 'this is "croak"'
 end
 
 function h.confess()
-	confess "confess confess confess"
+	confess 'this is "confess"'
 end
 
 return h
