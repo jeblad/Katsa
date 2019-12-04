@@ -1,6 +1,7 @@
 --- Tests for the spy module.
 
 local testframework = require 'Module:TestFramework'
+assert( testframework )
 
 local Spy = require 'spy'
 assert( Spy )
