@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"katsa-desc": "Voorziet in spionnen voor gebruik in Lua-modules",
+	"katsa-carp-final": "“Carp” aangeroepen",
+	"katsa-cluck-final": "“Cluck” aangeroepen",
+	"katsa-croak-final": "“Croak” aangeroepen",
+	"katsa-confess-final": "“Confess” aangeroepen"
+}
