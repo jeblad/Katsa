@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
+			"Corn Pig",
 			"StarrySky"
 		]
 	},
 	"katsa-desc": "提供使用在 Lua 模组的收集点",
-	"katsa-carp-final": "Carp 已呼叫"
+	"katsa-carp-final": "Carp 已呼叫",
+	"katsa-cluck-final": "Cluck 已呼叫"
 }
