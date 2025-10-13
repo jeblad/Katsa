@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Toliño"
+		]
+	},
+	"katsa-desc": "Proporciona espías para o seu uso en módulos Lua",
+	"katsa-carp-final": "Carpa chamada",
+	"katsa-cluck-final": "Cacarexo chamado",
+	"katsa-croak-final": "Croar chamado",
+	"katsa-confess-final": "Confesar chamado"
+}
