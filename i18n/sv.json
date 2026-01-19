@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Stefan2255"
+		]
+	},
+	"katsa-desc": "Tillhandahåller spioner för användning i Lua-moduler",
+	"katsa-carp-final": "Karp kallade",
+	"katsa-cluck-final": "Klick ringde",
+	"katsa-croak-final": "Kväk ringde",
+	"katsa-confess-final": "Bekänn ringde."
+}
