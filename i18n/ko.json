@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Tensama0415"
+		]
+	},
+	"katsa-carp-final": "Carp 호출됨",
+	"katsa-cluck-final": "Cluck 호출됨",
+	"katsa-croak-final": "Croak 호출됨",
+	"katsa-confess-final": "Confess 호출됨"
+}
