@@ -4,6 +4,7 @@
 			"Tensama0415"
 		]
 	},
+	"katsa-desc": "Lua 모듈에서 사용할 수 있는 스파이를 제공합니다",
 	"katsa-carp-final": "Carp 호출됨",
 	"katsa-cluck-final": "Cluck 호출됨",
 	"katsa-croak-final": "Croak 호출됨",
