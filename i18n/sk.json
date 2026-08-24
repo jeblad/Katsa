@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wizzard"
+		]
+	},
+	"katsa-desc": "Poskytuje špehov na použitie v moduloch Lua",
+	"katsa-carp-final": "Bola zavolaná funkcia carp",
+	"katsa-cluck-final": "Bola zavolaná funkcia cluck",
+	"katsa-croak-final": "Bola zavolaná funkcia croak",
+	"katsa-confess-final": "Bola zavolaná funkcia confess"
+}
